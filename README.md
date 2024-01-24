@@ -16,6 +16,7 @@ The following packages need to be installed (using pip):
 - ```pyod```
 - ```cleanlab```
 - ```seaborn```
+- ```peft```
 
 Also note that for the LLM experiments, you will need to have access to the Llama-2-13B LLM model from Meta and then utilize it using Huggingface. Please see [here](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf) for more details.
 
