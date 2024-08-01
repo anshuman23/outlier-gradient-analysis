@@ -58,8 +58,8 @@ ___
 
 ### RoBERTa Data Selection Experiments
 First ```cd``` into the ```nlp``` directory. Run the following code files in the order described:
-  - Run ```python ROBERTA_SELECTION_1.py```: This will run the RoBERTa model and generate all results and predictions. Make sure to set the ```task``` variable in the code to the dataset desired (```{mrpc, qnli, qqp, sst2}```)
-  - Next, run ```python ROBERTA_SELECTION_2.py```: This will make the relevant plots and store them in ```saved_figs_roberta```
+  - Run ```python ROBERTA_SELECTION_1_LATEST.py```: This will run the RoBERTa model and generate all results and predictions. Make sure to set the ```task``` variable in the code to the dataset desired (```{mrpc, qnli, qqp, sst2}```)
+  - Next, run ```python ROBERTA_SELECTION_2_LATEST.py```: This will make the relevant plots and store them in ```saved_figs_roberta```
 
 ___
 
