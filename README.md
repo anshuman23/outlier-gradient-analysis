@@ -63,7 +63,7 @@ First ```cd``` into the ```nlp``` directory. Run the following code files in the
 
 ___
 
-### LLM Influential Data Identificaiton Experiments
+### LLM Influential Data Identification Experiments
 First ```cd``` into the ```nlp``` directory. Run the following code files in the order described:
   - Run ```python LLM_INFL_ID_1.py.py```: Ensure that the ```DATASET``` variable is set to the desired dataset: ```{math_with_reason, math_without_reason, grammars}``` and that the ```base_path``` and ```project_path``` are set as required (this follows as in the DataInf code). Running this file will then load the dataset, finetune LLMs, and also save gradient space for models in ```saved_grads```. It will also compute AUC and Recall for the influence-based baselines.
   - Next, run ```python LLM_INFL_ID_2.py.py```: Ensure that the ```DATASET``` variable is set to the desired dataset. This file will load up the gradient space and modify it to run for outlier gradient trimming. It will generate AUC and ROC for the outlier gradient analysis/trimming method.
