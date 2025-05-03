@@ -1,4 +1,4 @@
-# Outlier Gradient Analysis
+# Outlier Gradient Analysis (ICML'25 Spotlight)
 
 ### Prerequisites and Requirements
 The following packages need to be installed (using pip):
